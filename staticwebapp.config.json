@@ -65,24 +65,6 @@
       ]
     },
     {
-      "route": "/manifest.json",
-      "allowedRoles": [
-        "anonymous"
-      ]
-    },
-    {
-      "route": "/favicon.ico",
-      "allowedRoles": [
-        "anonymous"
-      ]
-    },
-    {
-      "route": "/manifest.json",
-      "allowedRoles": [
-        "anonymous"
-      ]
-    },
-    {
       "route": "/api/Public*",
       "allowedRoles": [
         "admin",
@@ -90,6 +72,27 @@
         "readonly",
         "authenticated",
         "anonymous"
+      ]
+    },
+    {
+      "route": "/manifest.json",
+      "allowedRoles": [
+        "anonymous",
+        "authenticated"
+      ]
+    },
+    {
+      "route": "/favicon.ico",
+      "allowedRoles": [
+        "anonymous",
+        "authenticated"
+      ]
+    },
+    {
+      "route": "/robots.txt",
+      "allowedRoles": [
+        "anonymous",
+        "authenticated"
       ]
     },
     {
